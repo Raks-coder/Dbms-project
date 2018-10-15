@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<title>Searched</title>
+	<style type="text/css">
+		.jumbotron
+		{
+			color:purple;
+			background-color:lightblue;
+			text-align: center;
+		}
+		.container
+		{
+			text-align:left;
+
+		}
+	</style>
+</head>
+<body>
+<form method="POST" class="container">	
+<h1 class="jumbotron">The property you searched for has following details:-</h1>
+<div class="container">
+<ul>
+	
+	<li>Firstname:-{{ firstname }}</li>
+	<li>Pincode:-{{ pincode }}</li>
+	<li>City:-{{ city }}</li>
+	<li>State:-{{ state }}</li>
+	<li>Selling Price:-{{ sp }}</li>
+	<li>RegisterDate:-{{ registerydate }}</li>
+	<li>Furnished?:-{{ furni }}</li>
+</ul>
+</div>
+<div>
+	Want to go back to home page?
+</div>
+<div>
+	<a href="/home">Clickhere</a>
+</div>
+</form>
+</body>
+</html>

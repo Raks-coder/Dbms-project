@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<title>View page</title>
+	<style type="text/css">
+		.jumbotron
+		{
+			color:purple;
+			background-color:lightblue;
+			text-align: center;
+		}
+		.container
+		{
+			text-align:left;
+
+		}
+	</style>
+</head>
+<body class="container">
+<h1 class="jumbotron">These are the posts for property</h1>
+<ul>
+	<li>firstname:-{{ firstname }}</li>
+	<li>pincode:-{{ pincode }}</li>
+	<li>city:-{{ city }}</li>
+	<li>street:-{{ street }}</li>
+	<li>selling price:-{{ sp }}</li>
+	<li>registerydate:-{{ registerydate }}</li>
+	<li>Furnished?:-{{ furni }}</li>
+</ul>
+<div>
+	Go back to home page?
+</div>
+<div>
+	<a href="/home">Go Back</a>
+</div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<style type="text/css">
+		.jumbotron{
+			color:purple;
+			background-color:lightblue;
+			text-align: center;
+		}
+		.container
+		{
+			text-align: center;
+		}
+	</style>
+	<title>Predict</title>
+</head>
+<body class="container">
+<h1 class="jumbotron">PREDICTING PRICES FOR DELHI AND MUMBAI</h1>
+<h5>Note:-Please enter all the details in capital</h5>
+<form method='post' >
+<div>
+	<label for="city">City:-</label>
+	<input type="text" placeholder="city" name="city">
+</div>
+	<div>	  
+   <label for='housetype'>Housetype:-</label>
+  <input type="text" placeholder="Enter bhk"
+            name="housetype" />
+</div>
+<div>
+	<label for="furni">Furnished?:-</label>
+	<input type="text" placeholder="Yes/No" name="furni">
+</div>
+ <div>
+ 	<button type='submit'>Predict!</button>
+ </div>
+ <div>
+ 	<h5>Go back to home page?</h5>
+ </div>
+ <div>
+ 	<a href="/home">Clickhere</a>
+ </div>
+</form>
+</body>
+</html>
