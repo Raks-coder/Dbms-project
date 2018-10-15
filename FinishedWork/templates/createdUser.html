@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<title>Thank you for your submission</title>
+	<style type="text/css">
+		.jumbotron{
+			background-color: yellow;
+		}
+	</style>
+</head>
+<body class="container">
+	<h2 class="jumbotron">Thank you for Registering!!</h2>
+	<div>Your entered the following details<br>
+	 <strong>First name:</strong>{{ firstname }}<br>
+	 <strong>Last name:</strong>{{ lastname }}<br>
+	 <strong>City:</strong>{{ city }}<br>
+	 <strong>Gender:</strong>{{ gender }}<br>
+	 <strong>Usertype:</strong>{{ usertype }}<br>
+	 <strong>Contact:</strong>{{ contact }}<br>
+	 <strong>Aadhar Number:</strong>{{ aadhar}}<br>
+	 <strong>Email:</strong>{{ email }}<br>
+	 <strong>Password:</strong>{{ password }}<br>
+	</div>
+	Continue to the Login Page
+	<div>
+		<a href="/login">Login</a>
+	</div>
+	<div>
+		Do you need to change your details? <strong>Click below</strong>
+	</div>
+	<div>
+		<a href="/update">Change Details</a>
+	</div>
+</body>
+</html>
